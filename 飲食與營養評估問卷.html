@@ -1,0 +1,27 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "nutrition-assessment",
+  "title": "Nutrition and Diet Assessment Questionnaire",
+  "status": "active",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "1",
+      "text": "How many servings of fruits and vegetables do you eat per day?",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "linkId": "2",
+      "text": "Do you have any food allergies?",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "linkId": "3",
+      "text": "Have you been diagnosed with any chronic conditions? (e.g. diabetes, hypertension)",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
